@@ -1,0 +1,38 @@
+{
+  "name": "mongoose-lock",
+  "version": "1.0.0",
+  "description": "Add some helper properties to lock documents after a max number of failed attempts",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha",
+    "coverage": "./node_modules/.bin/istanbul cover ./node_modules/mocha/bin/_mocha",
+    "codeclimate": "./node_modules/.bin/istanbul cover ./node_modules/mocha/bin/_mocha --report lcovonly -- -R spec && cat ./coverage/lcov.info | ./node_modules/.bin/codeclimate && rm -rf ./coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ksmithut/mongoose-lock.git"
+  },
+  "keywords": [
+    "mongoose",
+    "lock",
+    "account"
+  ],
+  "author": "ksmithut",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ksmithut/mongoose-lock/issues"
+  },
+  "homepage": "https://github.com/ksmithut/mongoose-lock",
+  "devDependencies": {
+    "codeclimate-test-reporter": "0.0.3",
+    "expect.js": "^0.3.1",
+    "istanbul": "^0.3.2",
+    "mocha": "^1.21.4",
+    "mocha-lcov-reporter": "0.0.1",
+    "mongoose": "^3.8.16"
+  },
+  "dependencies": {
+    "bluebird": "^2.3.2",
+    "lodash.defaults": "^2.4.1"
+  }
+}
