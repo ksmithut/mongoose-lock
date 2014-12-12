@@ -1,6 +1,6 @@
 {
   "name": "mongoose-lock",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Add some helper properties to lock documents after a max number of failed attempts",
   "main": "index.js",
   "scripts": {
