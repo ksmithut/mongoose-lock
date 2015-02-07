@@ -1,7 +1,7 @@
 'use strict';
 
 var Promise  = require('bluebird');
-var defaults = require('lodash.defaults');
+var defaults = require('defaults');
 
 module.exports = function createdAt(schema, options) {
   // http://devsmash.com/blog/implementing-max-login-attempts-with-mongoose
