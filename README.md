@@ -1,8 +1,5 @@
 # mongoose-lock
 
-[![io.js compatibility](https://img.shields.io/badge/io.js-compatible-brightgreen.svg?style=flat)](https://iojs.org/)
-[![NPM version](http://img.shields.io/npm/v/mongoose-lock.svg?style=flat)](https://www.npmjs.org/package/mongoose-lock)
-
 [![Dependency Status](http://img.shields.io/david/ksmithut/mongoose-lock.svg?style=flat)](https://gemnasium.com/ksmithut/mongoose-lock)
 [![Dev Dependency Status](http://img.shields.io/david/dev/ksmithut/mongoose-lock.svg?style=flat)](https://gemnasium.com/ksmithut/mongoose-lock)
 [![Code Climate](http://img.shields.io/codeclimate/github/ksmithut/mongoose-lock.svg?style=flat)](https://codeclimate.com/github/ksmithut/mongoose-lock)
