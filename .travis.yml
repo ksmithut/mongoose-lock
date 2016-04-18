@@ -3,12 +3,12 @@ before_script:
   - sleep 15
 os:
   - linux
-  - osx
 node_js:
   - "0.12"
   - "0.11"
   - "0.10"
-  - iojs
+  - "4"
+  - "stable"
 services:
   - mongodb
 env:
